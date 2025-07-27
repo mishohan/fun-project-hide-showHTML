@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vh;
+    height: 8ovh;
+
+}
+
+img{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+
+#myBtn{
+    margin-top: 20px;
+    font-family: cursive;
+    color: white;
+    font-size: 2rem;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 0px 15px;
+    background-color: hsl(258, 67%, 60%);
+    
+}
+
+#myBtn:hover{
+    cursor: pointer;
+    background-color: hsl(36, 100%, 75%);
+    transition: 0.4s ease;
+    color: black;
+}
+
+#myBtn:active{
+    background-color: hsl(36, 100%, 60%);
+}
